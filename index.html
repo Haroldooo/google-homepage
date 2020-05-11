@@ -1,46 +1,61 @@
 <!DOCTYPE html>
 <html itemscope="" itemtype="http://schema.org/WebPage" lang="en-DE">
 
-</html>
-
 <head>
     <title>Google</title>
+    <link rel="stylesheet" href="styling.css" type="text/css">
 </head>
 
-<body>
-
-    <ul class="toplinks">
-        <li><a href="">About</a></li>
-        <li><a href="">Store</a></li>
-        <li><a href="">Gmail</a></li>
-        <li><a href="">Images</a></li>
-        <li><a class="toplinks-app" href="" title="Google apps" role="button" tabindex="0"></a></li>
-        <li><a class="toplinks-signin" href="" target="_top">Sign in</a></li>
+<body class="body">
+    <!--Top navigation bar-->
+    </div class="topnav">
+    <ul>
+        <li class="topleft"><a href="">About</a></li>
+        <li class="topleft"><a href="">Store</a></li>
+        <li class="topright"><a href="">Gmail</a></li>
+        <li class="topright"><a href="">Images</a></li>
+        <li class="topright"><a href="" title="Google apps" role="button" tabindex="0"></a></li>
+        <li class="topright"><a id="signin" href="" target="_top">Sign in</a></li>
     </ul>
+    <!--End of top navigation bar-->
+
+    <!--Page center-->
+    <!--Logo-->
     <div>
         <img alt="Google logo" border="0"
             src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
             style="padding-top:0px" title="Google logo">
     </div>
-    <div>
-        <input class="Search" maxlength="2048" name="q" type="text" autocapitalize="off" spellcheck="false"
+    <!--End of logo-->
+    <!--Form: input text+submit-->
+    <form>
+        <input class="Search" type="text" maxlength="2048" name="q" autocapitalize="off" spellcheck="false"
             title="Search" value="" aria-label="Search">
-    </div>
-    <div>
-        <input class="Searchbuttons" value="Google Search" name="btn1" type="submit">
-        <input class="Searchbuttons" value="I'm Feeling Lucky" name="btn2" type="submit">
-    </div>
+        </div>
+        <div>
+            <input class="Searchbuttons" value="Google Search" name="btn1" type="submit">
+            <input class="Searchbuttons" value="I'm Feeling Lucky" name="btn2" type="submit">
+        </div>
+    </form>
+    <!--End of form-->
     <div class="Plaintext">
         Google offered in:
         <a href="">Deutsch</a>
     </div>
-    <span class="Plaintextfb" id="footbars">Germany</span>
-    <ul class="linksfb" id="footbars">
-        <li><a href="">Advertising</a></li>
-        <li><a href="">Business</a></li>
-        <li><a href="">How Search works</a></li>
-        <li><a href="">Privacy</a></li>
-        <li><a href="">Terms</a></li>
-        <li><a href="">Settings</a></li>
+    <!--End of page center-->
+
+    <!--Footers-->
+    <span class="fb1">Germany</span>
+    <ul class="fb2">
+        <li class="botleft"><a href="">Advertising</a></li>
+        <li class="botleft"><a href="">Business</a></li>
+        <li class="botleft"><a href="">How Search works</a></li>
+        <li class="botright"><a href="">Privacy</a></li>
+        <li class="botright"><a href="">Terms</a></li>
+        <li class="botright"><a href="">Settings</a></li>
     </ul>
+    <!--end of page footers-->
+
 </body>
+
+</html>
