@@ -1,22 +1,89 @@
-.topnav{
-    font-size: 150px;
-}
-
-.body{
+body{
     font-family: Arial, sans-serif;
-    background-color: #fff;
 }
 
 ul{
     list-style-type: none;
 }
 
-a{
+.links{
     text-decoration: none;
-    color: #000;
+    color: black;
+    opacity: 0.75;
+    font-size: 13px;
 }
 
-a:hover{
+.links:hover{
+    cursor: pointer;
     text-decoration: underline;
 }
 
+#topnav{
+    height: 30px;
+    align-content: center;
+    margin-top: 8px;
+}
+
+#topleftnav{
+    float: left;
+    margin-top: 8px;
+    padding-left: 13px;
+}
+
+.topleft, .topright{
+    display: inline;
+    margin: 8px;
+    align-content: center;
+    text-align: center;
+}
+
+#toprightnav{
+    float: right;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+#apps{
+    height: 15px;
+    width: 15px;
+    opacity: 0.5;
+    position: relative;
+    top: 3px;
+}
+
+#apps:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#signin{
+    display: inline-block;
+    line-height: 28px;
+    text-decoration: none;
+    font-size: 13px;
+    background-color: rgb(66, 133, 244);
+    color: white;
+    padding: 0 12px;
+    font-weight: 700;
+    border-radius: 1px;
+}
+
+#signin:hover{
+    box-shadow: 1px 1px 3px 1px rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+#center{
+    text-align: center;
+}
+
+#logocontainer{
+    display: block;
+    height: 233px;
+    margin-top: 47px;
+}
+
+.logo{
+    padding-top: 109px;
+    height: 92px;
+}

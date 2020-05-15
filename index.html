@@ -1,60 +1,39 @@
 <!DOCTYPE html>
-<html itemscope="" itemtype="http://schema.org/WebPage" lang="en-DE">
+<html>
 
 <head>
     <title>Google</title>
-    <link rel="stylesheet" href="styling.css" type="text/css">
+    <link href="styling.css" type="text/css" rel="stylesheet">
 </head>
 
-<body class="body">
-    <!--Top navigation bar-->
-    </div class="topnav">
-    <ul>
-        <li class="topleft"><a href="">About</a></li>
-        <li class="topleft"><a href="">Store</a></li>
-        <li class="topright"><a href="">Gmail</a></li>
-        <li class="topright"><a href="">Images</a></li>
-        <li class="topright"><a href="" title="Google apps" role="button" tabindex="0"></a></li>
-        <li class="topright"><a id="signin" href="" target="_top">Sign in</a></li>
-    </ul>
-    <!--End of top navigation bar-->
+<body>
+    <nav id="topnav">
+        <ul id="topleftnav">
+            <li class="topleft"><a href="" class="links">About</a></li>
+            <li class="topleft"><a href="" class="links">Store</a></li>
+        </ul>
+        <ul id="toprightnav">
+            <li class="topright"><a href="" class="links">Gmail</a></li>
+            <li class="topright"><a href="" class="links">Images</a></li>
+            <li class="topright"><a href=""><img id="apps"
+                        src="https://cdn1.iconfinder.com/data/icons/material-core/16/apps-512.png"
+                        alt="Google Apps"></a></li>
+            <li class="topright"><a href="" id="signin">Sign in</a></li>
+        </ul>
+    </nav>
 
-    <!--Page center-->
-    <!--Logo-->
-    <div>
-        <img alt="Google logo" border="0"
-            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-            style="padding-top:0px" title="Google logo">
-    </div>
-    <!--End of logo-->
-    <!--Form: input text+submit-->
-    <form>
-        <input class="Search" type="text" maxlength="2048" name="q" autocapitalize="off" spellcheck="false"
-            title="Search" value="" aria-label="Search">
+    <div id="center">
+        <div id="logocontainer">
+            <img class="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+                alt="google logo">
         </div>
-        <div>
-            <input class="Searchbuttons" value="Google Search" name="btn1" type="submit">
-            <input class="Searchbuttons" value="I'm Feeling Lucky" name="btn2" type="submit">
+        <div id="searchbar-container">
+            <img src="img/search.svg" alt="magnifying-glass">
+            <form>
+                <input type="text" name="Search" id="searchbar">
+            </form>
         </div>
-    </form>
-    <!--End of form-->
-    <div class="Plaintext">
-        Google offered in:
-        <a href="">Deutsch</a>
     </div>
-    <!--End of page center-->
-
-    <!--Footers-->
-    <span class="fb1">Germany</span>
-    <ul class="fb2">
-        <li class="botleft"><a href="">Advertising</a></li>
-        <li class="botleft"><a href="">Business</a></li>
-        <li class="botleft"><a href="">How Search works</a></li>
-        <li class="botright"><a href="">Privacy</a></li>
-        <li class="botright"><a href="">Terms</a></li>
-        <li class="botright"><a href="">Settings</a></li>
-    </ul>
-    <!--end of page footers-->
 
 </body>
 
