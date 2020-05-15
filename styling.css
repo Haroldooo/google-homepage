@@ -81,9 +81,93 @@ ul{
     display: block;
     height: 233px;
     margin-top: 47px;
+    padding-bottom: 0px;
 }
 
 .logo{
-    padding-top: 109px;
+    padding-top: 100px;
     height: 92px;
+    padding-bottom: 0px;
+}
+
+#searchbar-container{
+    display: block;
+    margin: -20px auto 5px auto;
+    width: 600px;
+    height: 40px;
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+}
+
+.glass{
+    display: inline-block;
+    float: left;
+    padding: 10px 10px;
+    height: 20px;
+    width: 20px;
+}
+
+#searchbar{
+    display: inline-block;
+    height: 34px;
+    width: 510px;
+    border: none;
+    font-size: 18px;
+    padding-top: 2px;
+}
+
+.mic{
+    display: inline-block;
+    float: right;
+    padding: 10px 10px;
+    height: 20px;
+    width: 20px;
+}
+
+#buttons{
+    display: block;
+    padding-top: 18px;
+}
+
+.button{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    color: #5F6368;
+    height: 36px;
+    min-width: 54px;
+    border-radius: 4px;
+    padding: 0px 16px;
+    margin: 0px 3px;
+}
+
+.button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+#googlelang{
+    text-align: center;
+    line-height: auto;
+    width: auto;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+#googlelang a{
+    color: #1a0dab;
+    text-decoration: none;
+    padding-left: 4px;
+}
+
+#googlelang a:hover{
+    text-decoration: underline;
+}
+
+#germany{
+    display: flex;
 }
