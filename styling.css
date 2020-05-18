@@ -10,7 +10,6 @@ ul{
     text-decoration: none;
     color: black;
     opacity: 0.75;
-    font-size: 13px;
 }
 
 .links:hover{
@@ -19,19 +18,20 @@ ul{
 }
 
 #topnav{
+    display: block;
     height: 30px;
     align-content: center;
-    margin-top: 8px;
+    font-size: 13px;
 }
 
 #topleftnav{
     float: left;
-    margin-top: 8px;
     padding-left: 13px;
+    padding-top: 2px;
 }
 
 .topleft, .topright{
-    display: inline;
+    display: inline-block;
     margin: 8px;
     align-content: center;
     text-align: center;
@@ -90,13 +90,17 @@ ul{
     padding-bottom: 0px;
 }
 
-#searchbar-container{
+#searchbarcontainer{
     display: block;
     margin: -20px auto 5px auto;
     width: 600px;
     height: 40px;
     border: 1px solid lightgrey;
     border-radius: 30px;
+}
+
+#searchbarcontainer:hover{
+    box-shadow: 1px 1px 6px 3px rgb(200, 200, 200);
 }
 
 .glass{
@@ -113,7 +117,7 @@ ul{
     width: 510px;
     border: none;
     font-size: 18px;
-    padding-top: 2px;
+    padding-top: 4px;
 }
 
 .mic{
@@ -168,6 +172,50 @@ ul{
     text-decoration: underline;
 }
 
+footer{
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    font-size: 14px;
+    margin: 0px 0px;
+    color: rgba(0,0,0,.54);
+}
+
 #germany{
-    display: flex;
+    background: #f2f2f2;
+    line-height: 40px;
+    border: 1px solid #e4e4e4;
+    padding-left: 26px;
+}
+
+#botfoot{
+    background: #f2f2f2;
+    height: 40px;
+    border: 1px solid #e4e4e4;
+    align-content: center;
+    bottom: 0px;
+    border-bottom: none;
+}
+
+#botleftnav{
+    float: left;
+    width: auto;
+    margin: 0px;
+    padding: 8px 18px 0px;
+}
+
+.botleft, .botright{
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    padding: 4px 8px 0px;
+}
+
+#botrightnav{
+    float: right;
+    width: auto;
+    margin: 0px;
+    padding: 8px 15px 0px;
 }
